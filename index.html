@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
-</head>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" />
+  </head>
 
-<body>
-    <header class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle  navigation">
+  <body>
+    <header class="container shadow sticky-top bg-light p-2">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle  navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <nav class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Home</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="">Feature</a>
-                </li>
-                <li>
-                    <a class="nav-link rounded-pill background-gradient text-white text-center" href="">
-                        <!-- <img  src="images/search.png" style="width: 30px; background-color: brown;" alt=""> -->
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Feature</a>
+              </li>
+              <li>
+                <a
+                  class="nav-link rounded-pill background-gradient text-white text-center"
+                  href=""
+                >
+                  <!-- <img  src="images/search.png" style="width: 30px; background-color: brown;" alt=""> -->
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                             </svg> -->
 
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24"
-                                style=" fill:#ffffff;">
-                                <path
-                                    d="M 12 2 C 7.0414839 2 3 6.0414839 3 11 C 3 15.958516 7.0414839 20 12 20 L 12 23.091797 L 13.539062 22.105469 C 15.774897 20.671437 19.852053 17.575344 20.798828 12.882812 C 20.928446 12.277558 21 11.64776 21 11 C 21 6.0414839 16.958516 2 12 2 z M 12 4 C 15.877484 4 19 7.1225161 19 11 C 19 11.504182 18.94463 11.995387 18.841797 12.472656 L 18.839844 12.480469 L 18.837891 12.486328 C 18.24375 15.434377 15.971604 17.605199 14 19.138672 L 14 17.798828 L 12.875 17.939453 C 12.574056 17.977071 12.283936 18 12 18 C 8.1225161 18 5 14.877484 5 11 C 5 7.1225161 8.1225161 4 12 4 z">
-                                </path>
-                            </svg>
-                        Feedback</a>
-                </li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    style="fill: #ffffff"
+                  >
+                    <path
+                      d="M 12 2 C 7.0414839 2 3 6.0414839 3 11 C 3 15.958516 7.0414839 20 12 20 L 12 23.091797 L 13.539062 22.105469 C 15.774897 20.671437 19.852053 17.575344 20.798828 12.882812 C 20.928446 12.277558 21 11.64776 21 11 C 21 6.0414839 16.958516 2 12 2 z M 12 4 C 15.877484 4 19 7.1225161 19 11 C 19 11.504182 18.94463 11.995387 18.841797 12.472656 L 18.839844 12.480469 L 18.837891 12.486328 C 18.24375 15.434377 15.971604 17.605199 14 19.138672 L 14 17.798828 L 12.875 17.939453 C 12.574056 17.977071 12.283936 18 12 18 C 8.1225161 18 5 14.877484 5 11 C 5 7.1225161 8.1225161 4 12 4 z"
+                    ></path>
+                  </svg>
+                  Feedback</a
+                >
+              </li>
             </nav>
+          </div>
         </div>
-    </div>
-</nav>
-</header>
-    
-
-
-
-
-
-
+      </nav>
+    </header>
+    <main>
+      <section class="banner-section">
+        <div class="container mt-5">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="text-primary fw-bold display-1">
+                Showcase your app beautifully.
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum, commodi. Placeat, dicta doloribus!
+              </p>
+              <div>
+                <a href="https://www.apple.com/app-store/">
+                  <img class="img-fluid" src="img/app-store.png" alt=""
+                /></a>
+                <a href="https://play.google.com/store/games"
+                  ><img class="img-fluid" src="img/google-play.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid mx-5" src="img/banner.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- script -->
     <!-- scrip  -->
     <!-- // add bootstrap 5 js file -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> -->
-    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> -->
+
     <!-- //add bundel js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <source src="Bootstrap/bootstrap.bundle.min.js" type=""> -->
-</body>
-
+  </body>
 </html>
